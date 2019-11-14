@@ -72,5 +72,6 @@ class Login {
 	@Then("I will navigate to account page")
 	def I_will_navigate_to_account_page(){
 		assert WebUI.getText(findTestObject("Object Repository/UserPage/User_name")) == "Hallo vinh doan"
+	WebUI.closeBrowser()
 	}
 }
