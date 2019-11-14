@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Login" time="22" tests="1" failures="0" errors="0">
+    <testsuite name="Login" tests="1" failures="0" errors="0" time="22" timestamp="2019-11-14 15:31:20" hostname="vntdoan - vinhnnb.mgm-edv.de" id="Test Suites/Login">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\vntdoan\\Katalon Studio\\DEE-Test\\Reports\\20191114_153117\\Login\\20191114_153117"/>
+            <property name="logFiles" value="C:\\Users\\vntdoan\\Katalon Studio\\DEE-Test\\Reports\\20191114_153117\\Login\\20191114_153117\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="vntdoan - vinhnnb.mgm-edv.de"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 60.0"/>
+            <property name="hostAddress" value="172.31.240.144"/>
+            <property name="sessionId" value="5d4aa3b4-cd3c-4f70-a40e-c5c694179abb"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/LoginSucessful" classname="Test Cases/LoginSucessful" status="PASSED">
+            <system-out>2019-11-14 15:31:20 - [TEST_CASE][PASSED] - Test Cases/LoginSucessful: Test Cases/LoginSucessful&#xD;
+&#xD;
+2019-11-14 15:31:20 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/LoginSucessful .feature"): Feature file: 'Include/features/LoginSucessful .feature' was passed&#xD;
+&#xD;
+2019-11-14 15:31:20 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/LoginSucessful .feature' and extract report to folder: 'C:\Users\vntdoan\Katalon Studio\DEE-Test\Reports\20191114_153117\Login\20191114_153117/cucumber_report/1573720280691'...&#xD;
+&#xD;
+2019-11-14 15:31:21 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login successfully: SCENARIO Login successfully&#xD;
+&#xD;
+2019-11-14 15:31:21 - [TEST_STEP][PASSED] - I am on 'Deerberg' site: I am on 'Deerberg' site&#xD;
+&#xD;
+2019-11-14 15:31:21 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-11-14 15:31:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-11-14 15:31:25 - [MESSAGE][PASSED] - Browser is opened with url: 'null'&#xD;
+&#xD;
+2019-11-14 15:31:29 - [MESSAGE][PASSED] - Navigate to 'https://www.deerberg.de/user/login-show' successfully&#xD;
+&#xD;
+2019-11-14 15:31:29 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-11-14 15:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Cookie_agree_btn' is clicked on&#xD;
+&#xD;
+2019-11-14 15:31:29 - [MESSAGE][PASSED] - I am on 'Deerberg' site&#xD;
+&#xD;
+2019-11-14 15:31:29 - [TEST_STEP][PASSED] - I input email 'vinhdoanngocthe+1@gmail.com': I input email 'vinhdoanngocthe+1@gmail.com'&#xD;
+&#xD;
+2019-11-14 15:31:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_E-Mail' is visible&#xD;
+&#xD;
+2019-11-14 15:31:30 - [MESSAGE][PASSED] - Text 'vinhdoanngocthe+1@gmail.com' is set on object 'Object Repository/LoginPage/input_E-Mail'&#xD;
+&#xD;
+2019-11-14 15:31:30 - [MESSAGE][PASSED] - I input email 'vinhdoanngocthe+1@gmail.com'&#xD;
+&#xD;
+2019-11-14 15:31:30 - [TEST_STEP][PASSED] - I input password '123123123': I input password '123123123'&#xD;
+&#xD;
+2019-11-14 15:31:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_Passwort' is visible&#xD;
+&#xD;
+2019-11-14 15:31:30 - [MESSAGE][PASSED] - Text '123123123' is set on object 'Object Repository/LoginPage/input_Passwort'&#xD;
+&#xD;
+2019-11-14 15:31:30 - [MESSAGE][PASSED] - I input password '123123123'&#xD;
+&#xD;
+2019-11-14 15:31:30 - [TEST_STEP][PASSED] - I click on Login button: I click on Login button&#xD;
+&#xD;
+2019-11-14 15:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login_btn' is clicked on&#xD;
+&#xD;
+2019-11-14 15:31:42 - [MESSAGE][PASSED] - I click on Login button&#xD;
+&#xD;
+2019-11-14 15:31:42 - [TEST_STEP][PASSED] - I will navigate to account page: I will navigate to account page&#xD;
+&#xD;
+2019-11-14 15:31:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/UserPage/User_name' is: 'Hallo vinh doan'&#xD;
+&#xD;
+2019-11-14 15:31:42 - [MESSAGE][PASSED] - I will navigate to account page&#xD;
+&#xD;
+2019-11-14 15:31:42 - [MESSAGE][PASSED] - Feature file: 'Include/features/LoginSucessful .feature' was passed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-11-14 15:31:20 - [TEST_SUITE][INCOMPLETE] - Login: null</system-out>
+        <system-err>2019-11-14 15:31:20 - [TEST_SUITE][INCOMPLETE] - Login: null</system-err>
+    </testsuite>
+</testsuites>

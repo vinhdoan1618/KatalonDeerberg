@@ -1,0 +1,112 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Login successfully",
+        "description": "",
+        "id": "login;login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8032777900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on \u0027Deerberg\u0027 site",
+            "match": {
+              "location": "Login.I_am_on_Deerberg_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 592190800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I input email \u0027vinhdoanngocthe+1@gmail.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinhdoanngocthe+1@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.I_input_email_with_value(Object)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252242600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I input password \u0027123123123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123123123",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.I_input_password_with_value(Object)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1632944300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Login.I_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123602600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I will navigate to account page",
+            "match": {
+              "location": "Login.I_will_navigate_to_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  I want to use this test login function",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/vntdoan/Katalon Studio/DEE-Test/Include/features/LoginSucessful .feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

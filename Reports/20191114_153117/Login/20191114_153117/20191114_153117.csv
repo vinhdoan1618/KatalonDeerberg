@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Firefox 60.0,,,2019-11-14 15:31:20,2019-11-14 15:31:42,22.533s,INCOMPLETE
+,,,,,,,
+Test Cases/LoginSucessful,Firefox 60.0,,,2019-11-14 15:31:20,2019-11-14 15:31:42,22.242s,PASSED
+"runFeatureFile(""Include/features/LoginSucessful .feature"")",Firefox 60.0,,,2019-11-14 15:31:20,2019-11-14 15:31:42,21.968s,PASSED
