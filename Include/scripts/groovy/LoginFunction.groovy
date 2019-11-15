@@ -46,12 +46,11 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class Login 
-{
+class Login {
 	@Given("I am on 'Deerberg account' site")
 	def I_am_on_Deerberg_site() {
 		WebUI.openBrowser('https://www.deerberg.de/user/login-show')
-		//		WebUI.navigateToUrl('https://www.deerberg.de/user/login-show')
+		//WebUI.navigateToUrl('https://www.deerberg.de/user/login-show')
 		WebUI.maximizeWindow()
 		WebUI.click(findTestObject("Object Repository/HomePage/Cookie_agree_btn"))
 	}
@@ -70,7 +69,7 @@ class Login
 	@Then("Error Message will be show")
 	def Error_message_will_be_show(){
 		WebUI.verifyElementPresent(findTestObject('Object Repository/LoginPage/ErrorMessage'), 5)
-		WebUI.closeBrowser()		
+		WebUI.closeBrowser()
 	}
 	@Then("I will navigate to account page")
 	def I_will_navigate_to_account_page(){

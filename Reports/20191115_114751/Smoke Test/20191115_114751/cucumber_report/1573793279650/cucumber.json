@@ -1,0 +1,149 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 30,
+        "name": "Login failed",
+        "description": "",
+        "id": "login;login-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8701704500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on \u0027Deerberg account\u0027 site",
+            "match": {
+              "location": "Login.I_am_on_Deerberg_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 729740100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I input vinhdoanngocthe+3@gmail.com and 123456789",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinhdoanngocthe+3@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "123456789",
+                  "offset": 40
+                }
+              ],
+              "location": "Login.I_input_email_with_value(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8136524300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Login.I_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 828382300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Error Message will be show",
+            "match": {
+              "location": "Login.Error_message_will_be_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Login successfully",
+        "description": "",
+        "id": "login;login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5927653100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am on \u0027Deerberg account\u0027 site",
+            "match": {
+              "location": "Login.I_am_on_Deerberg_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 615961600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I input vinhdoanngocthe+1@gmail.com and 123123123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinhdoanngocthe+1@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "123123123",
+                  "offset": 40
+                }
+              ],
+              "location": "Login.I_input_email_with_value(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8091624500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Login.I_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 857530600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I will navigate to account page",
+            "match": {
+              "location": "Login.I_will_navigate_to_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  I want to use this test login function",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/vntdoan/KatalonDeerberg/Include/features/LoginFunction .feature",
+    "tags": []
+  }
+]

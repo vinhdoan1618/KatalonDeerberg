@@ -16,8 +16,10 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
+
+
 Feature: Login
-  I want to use this test login function
+  I want to use this to test login function
 
   Scenario Outline: Login failed
   	Given I am on 'Deerberg account' site
@@ -26,7 +28,7 @@ Feature: Login
 		Then Error Message will be show
 		
     Examples: 
-      | email                        | password  |
+      |	email                        | password  |
       | vinhdoanngocthe+3@gmail.com  | 123456789 |
   
   
