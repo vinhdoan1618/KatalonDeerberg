@@ -46,14 +46,12 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class Login {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
+class Login 
+{
 	@Given("I am on 'Deerberg account' site")
 	def I_am_on_Deerberg_site() {
 		WebUI.openBrowser('https://www.deerberg.de/user/login-show')
-//		WebUI.navigateToUrl('https://www.deerberg.de/user/login-show')
+		//		WebUI.navigateToUrl('https://www.deerberg.de/user/login-show')
 		WebUI.maximizeWindow()
 		WebUI.click(findTestObject("Object Repository/HomePage/Cookie_agree_btn"))
 	}
@@ -69,9 +67,14 @@ class Login {
 	def I_click_on_Login_button(){
 		WebUI.click(findTestObject("Object Repository/LoginPage/Login_btn"))
 	}
+	@Then("Error Message will be show")
+	def Error_message_will_be_show(){
+		WebUI.verifyElementPresent(findTestObject('Object Repository/LoginPage/ErrorMessage'), 5)
+		WebUI.closeBrowser()		
+	}
 	@Then("I will navigate to account page")
 	def I_will_navigate_to_account_page(){
 		assert WebUI.getText(findTestObject("Object Repository/UserPage/User_name")) == "Hallo vinh doan"
-	WebUI.closeBrowser()
+		WebUI.closeBrowser()
 	}
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.649522">
+<testcase classname="Login" name="Login successfully" time="20.649522">
+<system-out><![CDATA[Given I am on 'Deerberg account' site.......................................passed
+When I input vinhdoanngocthe+1@gmail.com and 123123123......................passed
+And I click on Login button.................................................passed
+Then I will navigate to account page........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
