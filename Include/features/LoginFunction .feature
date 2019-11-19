@@ -26,6 +26,7 @@ Feature: Login
     When I input <email> and <password>
 		And I click on Login button
 		Then Error Message will be show
+		And Deerberg logo is displayed
 		
     Examples: 
       |	email                        | password  |

@@ -76,4 +76,9 @@ class Login {
 		assert WebUI.getText(findTestObject("Object Repository/UserPage/User_name")) == "Hallo vinh doan"
 		WebUI.closeBrowser()
 	}
+	@Then("Deerberg logo is displayed")
+	def logo_is_displayed(){
+		WebUI.verifyElementPresent(findTestObject("Object Repository/HomePage/logo"), 5)
+		WebUI.closeBrowser()
+	}
 }
